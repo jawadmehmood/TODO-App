@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #005f5f;
+    color: #dfeaea;
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#todo{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 9px;
+    width: 100px;
+    background-color: #005f5f;
+    color: #dfeaea;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #dfeaea;
+    color: #005f5f;
+}
+
+input:focus{
+    background-color: #dfeaea;
+}
+
+.list-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#todo-list{
+    text-align: center;
+}

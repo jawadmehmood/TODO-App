@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Todo App</h1>
-    <input type="text" placeholder="Enter Todo" id="todo">
-    <button onclick="addTodo()">Add Todo</button>
-    <ol id="todo-list"></ol>
-
+    <div class="inputdiv">
+        <input type="text" placeholder="Enter Todo" id="todo">
+        <button onclick="addTodo()">Add Todo</button>
+    </div>
+    <div class="list-div">
+        <ol id="todo-list"></ol>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>
