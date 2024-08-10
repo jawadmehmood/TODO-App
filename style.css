@@ -25,7 +25,7 @@ h1{
 
 button{
     margin-top: 9px;
-    width: 100px;
+    width: 70px;
     background-color: #005f5f;
     color: #dfeaea;
     border: none;
@@ -50,4 +50,5 @@ input:focus{
 
 #todo-list{
     text-align: center;
+    font-size: 1.4rem;
 }
