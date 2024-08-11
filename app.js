@@ -1,10 +1,10 @@
-var input = document.querySelector('#todo');
-var todoList = document.querySelector('#todo-list');
-var todo = [];
+let input = document.querySelector('#todo');
+let todoList = document.querySelector('#todo-list');
+let todo = [];
 
 function renderTodo(){
     todoList.innerHTML = '';
-    for(var i = 0; i < todo.length; i++){
+    for(let i = 0; i < todo.length; i++){
         todoList.innerHTML += `
         <li> ${todo[i]}
         <button onclick="deleteTodo(${i})">Delete</button>
@@ -26,7 +26,7 @@ function deleteTodo(index){
 }
 
 function editTodo(index){
-    var updatedValue = prompt('Enter updated value');
+    let updatedValue = prompt('Enter updated value');
     todo.splice(index , 1 , updatedValue);
     renderTodo();
 }
